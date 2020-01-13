@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Ordering Fish</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style>
+        #result {
+            white-space: pre-line;
+        }
+
+    </style>
+</head>
+
+<body>
+    <textarea name="css" id="css" cols="30" rows="10" placeholder="Enter your CSS HERE">
+.sec01Btnbg {
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: 1px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+    height: 88px;
+    width: 870px;
+    background: url(../images/sec01BtnBg.png) center no-repeat;
+    text-align: center;
+}
+
+.section01Blk02 {
+    margin-bottom: 20px;
+    text-align: center;
+}</textarea>
+    <button id="start">Start Ordering</button>
+    <textarea name="result" id="resultz" cols="30" rows="10" placeholder="Copy Results From here"></textarea>
+    <div id="result"></div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="../abra-sorter.js"></script>
+    <script>
+        $("#start").click(function() {
+            $("#result").empty();
+            let css = $("#css").val().trim();
+            let output = sortCSS(css);
+            $("#result").append(output);
+            $("#resultz").val(output);
+        });
+
+    </script>
+</body>
+
+</html>

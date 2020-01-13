@@ -1,0 +1,158 @@
+.wrapper {
+    width: 990px;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+}
+
+.headerArea {
+    height: 81px;
+    background-color: #f3e6d8;
+}
+
+.headerLogo {
+    float: left;
+    margin: 7px 0 0 30px;
+}
+
+.snsLinks {
+    float: right;
+    margin: 13px 40px;
+}
+
+.snsLinks li {
+    float: left;
+    height: 54px;
+    overflow: hidden;
+    margin-left: 1px;
+}
+
+.snsLinks li img:hover {
+    margin-top: -54px;
+}
+
+.fbLogoBtn {
+    margin-right: 8px;
+}
+
+.section01 {
+    background: #e8382f;
+}
+
+.mainImg {
+    margin: 48px 0 7px 0;
+}
+
+.sec01Btnbg {
+    width: 870px;
+    height: 88px;
+    margin: auto 1px 0 0;
+    background: url(../images/sec01BtnBg.png) center no-repeat;
+    text-align: center;
+}
+
+.section01Blk02 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section01Btn {
+    height: 73px;
+    overflow: hidden;
+}
+
+.section01Btn img:hover {
+    margin-top: -73px;
+}
+
+.section02 {
+    background: url(../images/bg01.png) top no-repeat;
+}
+
+.brands {
+    text-align: center;
+}
+
+.blk02Area03P02 {
+    position: absolute;
+    right: 74px;
+    bottom: 57px;
+}
+
+.section02Blk03 {
+    margin-bottom: 16px;
+}
+
+.sec02BtnBg {
+    width: 990px;
+    height: 129px;
+    background: url(../images/sec02BtnBg.png) center no-repeat;
+}
+
+.section02Btn {
+    position: relative;
+    top: 13px;
+    height: 73px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section02Btn img:hover {
+    margin-top: -73px;
+}
+
+.section03Blk02Area00 {
+    text-align: center;
+}
+
+.sec03Blk00 {
+    position: relative;
+}
+
+.section02Blk02Area03 {
+    position: relative;
+}
+
+.sec03Blk01Icon {
+    position: absolute;
+    top: 72px;
+    right: 63px;
+}
+
+.section03Btn {
+    height: 83px;
+    overflow: hidden;
+    margin: 5px 0 14px 32px;
+    text-align: center;
+}
+
+.section03Btn img:hover {
+    margin-top: -83px;
+}
+
+.section04 {
+    margin-bottom: 20px;
+}
+
+.section04Blk01 {
+    position: relative;
+    margin-top: 6px;
+}
+
+.sec04BtnBg {
+    width: 990px;
+    height: 145px;
+    background: url("../images/sec04btnBg.png") center no-repeat;
+}
+
+.section04Btn {
+    position: relative;
+    top: 17px;
+    left: 6px;
+    height: 74px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section04Btn img:hover {
+    margin-top: -74px;
+}
