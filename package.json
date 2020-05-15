@@ -3,7 +3,7 @@
     "title": "Abra CSS Sorter",
     "description": "This tool is used to sort CSS order of properties accoring to TCAP standard of CSS",
     "homepage": "https://github.com/abraham28/tcap-css-sorter",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "guerreroabrahamr@gmail.com",
     "license": "MIT",
     "engines": {
