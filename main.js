@@ -17,7 +17,7 @@ define(function (require, exports, module) {
         start,
         end,
         isSelection = false;
-
+    require("cssjson");
     require("abra-sorter");
 
     function replaceCSS(css) {
